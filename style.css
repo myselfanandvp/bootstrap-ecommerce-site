@@ -11987,12 +11987,6 @@ textarea.form-control-lg {
   height: 450px;
 }
 
-.c-img {
-  height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-
 .btn-custom {
   width: 200px;
 }
