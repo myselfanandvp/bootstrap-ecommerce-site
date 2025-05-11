@@ -11977,4 +11977,36 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
+}
+.custom-btn {
+  width: 7rem;
+  background-color: green;
+}
+
+.c-item {
+  height: 450px;
+}
+
+.c-img {
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.btn-custom {
+  width: 200px;
+}
+
+.cm-container {
+  height: 250px;
+  background-color: rgb(245, 245, 103);
+}
+
+.cm-w {
+  width: 650px;
+}
+
+.cm-container-2 {
+  height: 400px;
+  background-color: orange;
 }/*# sourceMappingURL=style.css.map */
