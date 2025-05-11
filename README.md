@@ -3,4 +3,4 @@
 
 ## 📷 Preview
 
-![Website Preview](https://github.com/user-attachments/assets/e8b6e3cb-e73c-4c57-bad9-94e552fc3118) 
+![Website Preview](https://github.com/user-attachments/assets/f18ae7bd-44df-4c72-b0e2-4f5b87766d59) 
