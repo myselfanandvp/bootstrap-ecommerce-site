@@ -12013,7 +12013,12 @@ textarea.form-control-lg {
   background-color: rgb(245, 245, 103);
 }
 
-
+.cm-w {
+  width: 650px;
+  background-image: url("https://img.freepik.com/premium-photo/marble-ink-abstract-art-from-exquisite-original-painting-abstract-background_31965-70955.jpg");
+  background-size: cover;
+  font-weight: 500;
+}
 
 .cm-container-2 {
   height: 400px;
