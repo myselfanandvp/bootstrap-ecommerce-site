@@ -19,6 +19,7 @@
   "homepage": "https://github.com/myselfanandvp/bootstrap-ecommerce-site#readme",
   "dependencies": {
     "bootstrap": "^5.3.6",
-    "bootstrap-icons": "^1.13.1"
+    "bootstrap-icons": "^1.13.1",
+    "lighthouse": "^12.6.0"
   }
 }

@@ -1,6 +1,17 @@
 @charset "UTF-8";
 .mybgcolor {
-  background-color: gray;
+  background-image: url("https://img.freepik.com/premium-photo/abstract-background-images-wallpaper-ai-generated_643360-43267.jpg?w=360");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 3px 5px 25px black;
+}
+
+.mycustomreview {
+  background-image: url("https://img.freepik.com/free-vector/realistic-white-golden-geometric-background_79603-2032.jpg?ga=GA1.1.1104229070.1746894629&semt=ais_hybrid&w=740");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /*!
@@ -11987,6 +11998,12 @@ textarea.form-control-lg {
   height: 450px;
 }
 
+.c-img {
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 .btn-custom {
   width: 200px;
 }
@@ -12002,5 +12019,6 @@ textarea.form-control-lg {
 
 .cm-container-2 {
   height: 400px;
-  background-color: orange;
+  background-image: url("https://wallpapers.com/images/hd/black-and-white-abstract-hfgro81a61bvhu61.jpg");
+  background-size: cover;
 }/*# sourceMappingURL=style.css.map */
