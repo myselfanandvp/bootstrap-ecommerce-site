@@ -11,9 +11,9 @@
 </head>
 
 <body>
-    <div class="d-flex justify-content-center align-content-center flex-column px-2 ">
+    <div class="d-flex justify-content-center align-content-center flex-column  ">
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+        <nav class="navbar  navbar-expand-lg custom-navbar-bg  position-fixed z-1 top-0  fw-bold d-flex w-100 px-3">
 
             <a class="navbar-brand text-uppercase" href="#">
                 <img src="https://static.vecteezy.com/system/resources/previews/048/115/790/non_2x/surfer-mascot-logo-png.png"
@@ -29,18 +29,18 @@
                         <a class="nav-link" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Products</a>
+                        <a class="nav-link" href="#Products">Products</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Blogs</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">About us</a>
+                        <a class="nav-link" href="#Blogs">Blogs</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="#Aboutus">About us</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Signup">Sign UP</a>
                     </li>
 
                     <li class="nav-item align-content-center mb-2">
@@ -55,7 +55,7 @@
             </div>
         </nav>
 
-        <main>
+        <main id="Home">
             <div class="row-cols-1 position-relative h-50 overflow-hidden">
                 <img src="https://images.pexels.com/photos/390051/surfer-wave-sunset-the-indian-ocean-390051.jpeg?cs=srgb&dl=pexels-pixabay-390051.jpg&fm=jpg"
                     alt="" class=" w-100 object-fit-cover">
@@ -69,7 +69,7 @@
                 </div>
             </div>
 
-            <div class="container text-center my-2">
+            <div id="Products" class="container text-center my-2">
                 <h1>Surfboards</h1>
             </div>
 
@@ -168,7 +168,7 @@
             </div>
 
 
-            <div
+            <div id="Blogs"
                 class=" mycustomreview row justify-content-center align-content-center flex-column px-3 text-center  cm-container">
                 <h1>Customer reviews</h1>
                 <p>Nunc condimentum feugiat tellus sit amet lacinia. Pellentesque laoreet metus sed eros molestie, sit
@@ -198,7 +198,7 @@
             </div>
 
 
-            <div class="row cm-container-2 d-flex justify-content-evenly align-items-center flex-column text-center">
+            <div id="Signup" class="row cm-container-2 d-flex justify-content-evenly align-items-center flex-column text-center">
                 <h1>Sign up for the newsletter!</h1>
                 <p>Sign up for the newsletter and receive free web design knowledge</p>
                 <input type="text" class="w-50" placeholder="Search">
@@ -253,7 +253,7 @@
 
 
 
-        <footer class="row">
+        <footer id="Aboutus" class="row">
             <div class="footer-top">
                 <div class="container">
                     <div class="footer-day-time">

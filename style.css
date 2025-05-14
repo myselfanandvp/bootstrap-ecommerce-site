@@ -1,4 +1,17 @@
+
+
 @charset "UTF-8";
+
+*{
+  padding: 0;
+  margin:0;
+  box-sizing: border-box;
+  
+}
+
+
+
+
 .mybgcolor {
   background-image: url("https://img.freepik.com/premium-photo/abstract-background-images-wallpaper-ai-generated_643360-43267.jpg?w=360");
   background-position: right;
@@ -7,12 +20,20 @@
   box-shadow: 3px 5px 25px black;
 }
 
+
+
+
+
 .mycustomreview {
   background-image: url("https://img.freepik.com/free-vector/realistic-white-golden-geometric-background_79603-2032.jpg?ga=GA1.1.1104229070.1746894629&semt=ais_hybrid&w=740");
   background-position: right;
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+
+
+
 
 /*!
  * Bootstrap  v5.3.6 (https://getbootstrap.com/)
@@ -12101,7 +12122,7 @@ ol, ul {
 }
 .footer-top {
     background: #2f2f2f;
-    padding:50px 0 50px;
+    padding:10px;
     width: 100%;
 }
 .footer-top h4 {
@@ -12182,9 +12203,23 @@ footer .social-icon li i:hover {
     font-size: 18px;
 }
 
+.custom-navbar-bg{
+  background-color: rgba(255, 255, 255, 0.726);
+}
+
 @media(max-width:556px){
   #hero-para{
    color: black;
     font-weight: 700;
   }
+
+  
 }
+
+@media(max-width:990px){
+  .custom-navbar-bg{
+    background-color: white;
+  }
+}
+
+
