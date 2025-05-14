@@ -12181,3 +12181,10 @@ footer .social-icon li i:hover {
 .copyright {
     font-size: 18px;
 }
+
+@media(max-width:556px){
+  #hero-para{
+   color: black;
+    font-weight: 700;
+  }
+}
